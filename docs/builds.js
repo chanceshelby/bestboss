@@ -38,7 +38,7 @@ bp.ressourceMultiplier = [1, 1, 1, 1];
 bp.timeMultiplier = [1, 1, 1, 1];
 bp.list = [
 	new bp.create('<b>Factory</b>',		103680,		51840,		'parts',	1, 1.07, 48),
-	new bp.create('<b>Music Studio</b>',	1244160,	622080,		'records',	1, 1.07, 96),
+	new bp.create('<b>Hospital</b>',	1244160,	622080,		'patients',	1, 1.07, 96),
 	new bp.create('<b>Bank</b>',			14929920,	7464961,	'loans',		1, 1.07, 192),
 	new bp.create('<b>Tech Company</b>',			179159040,	89579521,	'computers',		1, 1.07, 576)
 ];
