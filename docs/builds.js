@@ -40,7 +40,7 @@ bp.list = [
 	new bp.create('<b>Music Studio</b>',	10000000,	110000,	"records",	1, 1.07, 48),
 	new bp.create('<b>Factory</b>',		500000000,	300000,	"parts",	1, 1.07, 96),
 	new bp.create('<b>Bank</b>',		1200000000,	850000,	"loans",	1, 1.07, 192),
-	new bp.create('<b>Tech Company</b>',	2000000000000,	1000000,"computers",	1, 1.07, 576)
+	new bp.create('<b>Tech Company</b>',	2000000000000,	1000000,"computers",	1, 1.07, 576),
 ];
 
 // init functions called during game init
