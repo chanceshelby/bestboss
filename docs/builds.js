@@ -26,9 +26,9 @@ bb.multiplier = [1, 1, 1, 1];
 bb.timeMultiplier = [1, 1, 1, 1];
 bb.list = [
 	new bb.create("<b>Produce Stand</b>", 90, 			1, 		1.07, 2),
-	new bb.create("<b>Package Delivery</b>",	1000,			60,		1.10, 6),
-	new bb.create("<b>Daycare</b>",			55000,		540,	1.09, 12),
-	new bb.create("<b>Car Dealership</b>",	500000,		4320,	1.08, 24)
+	new bb.create("<b>Package Delivery</b>",	4000,			50,		1.10, 6),
+	new bb.create("<b>Daycare</b>",			70000,		550,	1.09, 12),
+	new bb.create("<b>Car Dealership</b>",	500000,		4000,	1.08, 24)
 ];
 bp.init = false;
 bp.owned = [0, 0, 0, 0];
@@ -37,10 +37,10 @@ bp.profitMultiplier = [1, 1, 1, 1];
 bp.ressourceMultiplier = [1, 1, 1, 1];
 bp.timeMultiplier = [1, 1, 1, 1];
 bp.list = [
-	new bp.create('<b>Factory</b>',		10000000,		51840,		'parts',	1, 1.07, 48),
-	new bp.create('<b>Music Studio</b>',	500000000,	622080,		'records',	1, 1.07, 96),
-	new bp.create('<b>Bank</b>',			1200000000,	7464961,	'loans',		1, 1.07, 192),
-	new bp.create('<b>Tech Company</b>',			2000000000000,	89579521,	'computers',		1, 1.07, 576)
+	new bp.create('<b>Factory</b>',		10000000,		11000,		'parts',	1, 1.07, 48),
+	new bp.create('<b>Music Studio</b>',	500000000,	300000,		'records',	1, 1.07, 96),
+	new bp.create('<b>Bank</b>',			1200000000,	850000,	'loans',		1, 1.07, 192),
+	new bp.create('<b>Tech Company</b>',			2000000000000,	1000000,	'computers',		1, 1.07, 576)
 ];
 
 // init functions called during game init
