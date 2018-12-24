@@ -1,6 +1,6 @@
 	* { -webkit-font-smoothing: antialiased; text-shadow: none; text-rendering: optimizeLegibility; }
 	body { margin: 0; padding: 0; cursor: default; font-family: "arial"; font-weight: bold; background: #eee; }
-	header { margin-bottom: 20px; padding: 0 100px; height: 70px; width: 100%; background: #005995; color: #eee; }
+	header { margin-bottom: 20px; padding: 0 100px; height: 70px; width: 100%; background: #393939; color: #eee; }
 	small { font-size: 50%; }
 
 	::-webkit-scrollbar { width: 8px; }
