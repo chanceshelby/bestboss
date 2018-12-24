@@ -42,7 +42,7 @@
 	.prod-stats:hover, .business-stats:hover { transition: all .2s; background: #ff6461; }
 	.prod-stats:active, .business-stats:active { transition: all .2s; }
 	.prod-ressources>h5 { margin-top: 5px; margin-bottom: 5px; }
-	.prod-ressources { padding: 2px 0; width: 100%; background: #ec7f37; border-radius: 2px; color: #eee; }
+	.prod-ressources { padding: 2px 0; width: 100%; background: #1067e8; border-radius: 2px; color: #eee; }
 
 	/* upgrades and achievements */
 	.upgrade, .achievement { transition: all .2s; margin-bottom: 5px; width: 100%; background: #cf514f; border-radius: 2px; cursor: pointer; }
