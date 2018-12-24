@@ -1,4 +1,4 @@
-<style>
+
 	* { -webkit-font-smoothing: antialiased; text-shadow: none; text-rendering: optimizeLegibility; }
 	body { margin: 0; padding: 0; cursor: default; font-family: "arial"; font-weight: bold; background: #eee; }
 	header { margin-bottom: 20px; padding: 0 100px; height: 70px; width: 100%; background: #393939; color: #eee; }
@@ -36,7 +36,7 @@
 	.main-tab>.col-md-12>.col-md-3 { color: #333; }
 	.prod-time>h5, .business-time>h5, .prod-stats>h5, .business-stats>h5 { margin-top: 5px; margin-bottom: 5px; }
 	.prod-stats { margin-bottom: 5px; }
-	.prod-time, .business-time { transition: all .2s; padding: 2px 0; margin-bottom: 5px; width: 100%; background: #CFB53B; border-radius: 2px; color: #fff;}
+	.prod-time, .business-time { transition: all .2s; padding: 2px 0; margin-bottom: 5px; width: 100%; background: #ffcf25; border-radius: 2px; color: #fff;}
 	.prod-stats, .business-stats { transition: all .2s; width: 100%; padding-top: 3px; padding-bottom: 3px; background: #cf514f; border-radius: 2px;
 	color: #eee; cursor: pointer; }
 	.prod-stats:hover, .business-stats:hover { transition: all .2s; background: #ff6461; }
@@ -55,153 +55,3 @@
 	.notransition { transition: none; -webkit-transition: none; -o-transition: none; }
 	.noshadow { box-shadow: none; }
 	.spacer { height: 25px; margin-bottom: 20px; }
-</style>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>BEST BO$$</title>
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-</head>
-
-<body class="noselect">
-	<header>
-		<div class="row">
-			<div class="col-md-6"><p id="nav-version" class="header-title"></p></div>
-			<div class="col-md-6"><p id="nav-money" class="header-stats"></p></div>
-		</div>
-	</header>
-
-	<div class="container" style="display: block;">
-		<div class="row">
-			<div class="col-md-2">
-				<div class="row">
-				<b>
-					<div class="col-md-12"><div id="main-btn-0" onclick="tabs.switcher(0);" class="main-btn active">Business</div></div>
-					<div class="col-md-12"><div id="main-btn-1" onclick="tabs.switcher(1);" class="main-btn">Upgrades</div></div>
-					<div class="col-md-12"><div id="main-btn-2" onclick="tabs.switcher(2);" class="main-btn">Achievements</div></div>
-					<div class="col-md-12"><div class="spacer"></div></div>
-					<div class="col-md-12"><div id="options-buy" class="main-btn" onclick="h.buySwitch();">Buy x1</div></div>
-				</b>
-				</div>
-			</div>
-			<div class="col-md-10">
-				<div class="tab-container">
-					<div id="tab-0" class="main-tab">
-						<div class="col-md-12">
-							<div class="col-md-3">
-								<h4 id="bp-name-2" class="text-center"></h4>
-								<img src="music_studio.png">
-								<br><br>
-								<div class="progress"><div id="bp-progress-2" class="progress-bar progress-bar-info noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="prod-time"><h5 id="bp-time-2" class="text-center"></h5></div>
-								<div id="bp-buy-2" class="prod-stats"><h5 id="bp-infos-2" class="text-center"></h5></div>
-								<div class="prod-ressources"><h5 id="bp-ressource-2" class="text-center"></h5></div>
-							</div>
-							
-							<div class="col-md-3">
-								<h4 id="bp-name-1" class="text-center"></h4>
-								<img src="factory.png">
-								<br><br>
-								<div class="progress"><div id="bp-progress-1" class="progress-bar progress-bar-info noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="prod-time"><h5 id="bp-time-1" class="text-center"></h5></div>
-								<div id="bp-buy-1" class="prod-stats"><h5 id="bp-infos-1" class="text-center"></h5></div>
-								<div class="prod-ressources"><h5 id="bp-ressource-1" class="text-center"></h5></div>
-							</div>
-							
-							<div class="col-md-3">
-								<h4 id="bp-name-3" class="text-center"></h4>
-								<img src="bank.png">
-								<br><br>
-								<div class="progress"><div id="bp-progress-3" class="progress-bar progress-bar-info noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="prod-time"><h5 id="bp-time-3" class="text-center"></h5></div>
-								<div id="bp-buy-3" class="prod-stats"><h5 id="bp-infos-3" class="text-center"></h5></div>
-								<div class="prod-ressources"><h5 id="bp-ressource-3" class="text-center"></h5></div>
-							</div>
-							
-							<div class="col-md-3">
-								<h4 id="bp-name-4" class="text-center"></h4>
-								<img src="tech_company.png">
-								<br><br>
-								<div class="progress"><div id="bp-progress-4" class="progress-bar progress-bar-info noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="prod-time"><h5 id="bp-time-4" class="text-center"></h5></div>
-								<div id="bp-buy-4" class="prod-stats"><h5 id="bp-infos-4" class="text-center"></h5></div>
-								<div class="prod-ressources"><h5 id="bp-ressource-4" class="text-center"></h5></div>
-							</div>
-							
-							<div class="col-md-12"><div class="spacer"></div></div>
-							<div class="col-md-3">
-								<h4 id="bb-name-1" class="text-center"></h4>
-								<img src="produce_stand.png">
-								<br><br>
-								<div class="progress"><div id="bb-progress-1" class="progress-bar progress-bar-success noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="business-time"><h5 id="bb-time-1" class="text-center"></h5></div>
-								<div id="bb-buy-1" class="business-stats"><h5 id="bb-infos-1" class="text-center"></h5></div>
-							</div>
-							<div class="col-md-3">
-								<h4 id="bb-name-2" class="text-center"></h4>
-								<img src="package_delivery.png">
-								<br><br>
-								<div class="progress"><div id="bb-progress-2" class="progress-bar progress-bar-success noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="business-time"><h5 id="bb-time-2" class="text-center"></h5></div>
-								<div id="bb-buy-2" class="business-stats"><h5 id="bb-infos-2" class="text-center"></h5></div>
-							</div>
-							<div class="col-md-3">
-								<h4 id="bb-name-3" class="text-center"></h4>
-								<img src="daycare.png">
-								<br><br>
-								<div class="progress"><div id="bb-progress-3" class="progress-bar progress-bar-success noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="business-time"><h5 id="bb-time-3" class="text-center"></h5></div>
-								<div id="bb-buy-3" class="business-stats"><h5 id="bb-infos-3" class="text-center"></h5></div>
-							</div>
-							
-							<div class="col-md-3">
-								<h4 id="bb-name-4" class="text-center"></h4>
-								<img src="car_dealership.png">
-								<br><br>
-								<div class="progress"><div id="bb-progress-4" class="progress-bar progress-bar-success noshadow notransition" role="progressbar" style="min-width: 2em; width: 0%;">0%</div></div>
-								<div class="business-time"><h5 id="bb-time-4" class="text-center"></h5></div>
-								<div id="bb-buy-4" class="business-stats"><h5 id="bb-infos-4" class="text-center"></h5></div>
-							</div>
-						</div>
-					</div>
-					<div id="tab-1" class="main-tab" style="display: none;">
-						<div class="row tabs">
-							<div id="upgrades-business" class="col-md-4"></div>
-						</div>
-					</div>
-					<div id="tab-2" class="main-tab" style="display: none;">
-						<div class="row tabs">
-							<div id="achievements-business" class="col-md-4"></div>
-						</div>
-					</div>
-					<div id="tab-3" class="main-tab" style="display: none;">
-					</div>
-					<div id="tab-4" class="main-tab" style="display: none;">
-						
-	
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<script src="js/beautify.js"></script>
-	<script src="js/resize.js"></script>
-	<script src="js/tabs.js"></script>
-	<script src="js/core.js"></script>
-	<script src="js/builds.js"></script>
-	<script src="js/upgrades.js"></script>
-	<script src="js/ach.js"></script>
-	<script src="js/helpers.js"></script>
-	<script src="js/save.js"></script>
-	
-	<br>
-	<br>
-</body>
-</html>
