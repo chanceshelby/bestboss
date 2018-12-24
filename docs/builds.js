@@ -27,8 +27,8 @@ bb.timeMultiplier = [1, 1, 1, 1];
 bb.list = [
 	new bb.create("<b>Produce Stand</b>", 90, 			1, 		1.07, 2),
 	new bb.create("<b>Package Delivery</b>",	4000,			50,		1.10, 6),
-	new bb.create("<b>Daycare</b>",			70000,		300,	1.09, 12),
-	new bb.create("<b>Car Dealership</b>",	500000,		900,	1.08, 24)
+	new bb.create("<b>Coffee Shop</b>",			70000,		300,	1.09, 12),
+	new bb.create("<b>Daycare</b>",	500000,		900,	1.08, 24)
 ];
 bp.init = false;
 bp.owned = [0, 0, 0, 0];
