@@ -19,21 +19,21 @@ a.bb.list = [
 	new a.bb.create("Fresh Produce IV",	"Own 100 Produce Stands",	"Produce Stand speed x2", 'owned[0]', 100,		'timeMultiplier[0]', '/2'),
 	new a.bb.create("Fresh Produce V",		"Own 200 Produce Stands",	"Produce Stand speed x2", 'owned[0]', 200,		'timeMultiplier[0]', '/2'),
 	new a.bb.create("Produce God I",			"Own 300 Produce Stands",	"Produce Stand speed x2", 'owned[0]', 300,		'timeMultiplier[0]', '/2'),
-	doctype.html("<br><br>");
+	elmnt.innerHTML = "<br><br>";
 	new a.bb.create("On-Time Delivery I",	"Own 10 Package Delivery Companies",	"Package Delivery speed x2",			'owned[1]',	10,		'timeMultiplier[1]', '/2'),
 	new a.bb.create("On-Time Delivery II",	"Own 25 Package Delivery Companies",	"Package Delivery speed x2",			'owned[1]',	25,		'timeMultiplier[1]', '/2'),
 	new a.bb.create("On-Time Delivery III","Own 50 Package Delivery Companies",	"Package Delivery speed x2",			'owned[1]',	50,		'timeMultiplier[1]', '/2'),
 	new a.bb.create("On-Time Delivery IV",	"Own 100 Package Delivery Companies",	"Package Delivery speed x2",			'owned[1]',	100,	'timeMultiplier[1]', '/2'),
 	new a.bb.create("On-Time Delivery V",	"Own 200 Package Delivery Companies",	"Package Delivery speed x2",			'owned[1]',	200,	'timeMultiplier[1]', '/2'),
 	new a.bb.create("Delivery God I",		"Own 300 Package Delivery Companies",	"Package Delivery speed x2",			'owned[1]',	300,	'timeMultiplier[1]', '/2'),
-	doctype.html("<br><br>");
+	elmnt.innerHTML = "<br><br>";
 	new a.bb.create("Coolest Toys I",		"Own 10 Daycares",		"Daycare speed x2",				'owned[2]',	10,		'timeMultiplier[2]', '/2'),
 	new a.bb.create("Coolest Toys II",		"Own 25 Daycares",		"Daycare speed x2",				'owned[2]',	25,		'timeMultiplier[2]', '/2'),
 	new a.bb.create("Coolest Toys III",		"Own 50 Daycares",		"Daycare speed x2",				'owned[2]',	50,		'timeMultiplier[2]', '/2'),
 	new a.bb.create("Coolest Toys IV",		"Own 100 Daycares",		"Daycare speed x2",				'owned[2]',	100,	'timeMultiplier[2]', '/2'),
 	new a.bb.create("Coolest Toys V",		"Own 200 Daycares",		"Daycare speed x2",				'owned[2]',	200,	'timeMultiplier[2]', '/2'),
 	new a.bb.create("Coolest Toys VI",		"Own 300 Daycare",		"Daycare speed x2",				'owned[2]',	300,	'timeMultiplier[2]', '/2'),
-	doctype.html("<br><br>");
+	elmnt.innerHTML = "<br><br>";
 	new a.bb.create("Fast Cars I",		"Own 10 Car Dealerships",	"Car Dealership speed x2",	'owned[3]',	10,		'timeMultiplier[3]', '/2'),
 	new a.bb.create("Fast Cars II",	"Own 25 Car Dealerships",	"Car Dealership speed x2",	'owned[3]',	25,		'timeMultiplier[3]', '/2'),
 	new a.bb.create("Fast Cars III",	"Own 50 Car Dealerships",	"Car Dealership speed x2",	'owned[3]',	50,		'timeMultiplier[3]', '/2'),
