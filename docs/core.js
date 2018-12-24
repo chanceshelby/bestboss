@@ -2,7 +2,7 @@ var core = c = {};
 
 c.money = 4;
 c.totalMoney = 4;
-c.records = 0;
+c.patients = 0;
 c.parts = 0;
 c.loans = 0;
 c.computers = 0;
