@@ -28,7 +28,7 @@ bb.list = [
 	new bb.create("<b>Produce Stand</b>", 90, 			1, 		1.07, 2),
 	new bb.create("<b>Package Delivery</b>",	1000,			60,		1.10, 6),
 	new bb.create("<b>Daycare</b>",			55000,		540,	1.09, 12),
-	new bb.create("<b>Car Dealership</b>",	5000000,		4320,	1.08, 24)
+	new bb.create("<b>Car Dealership</b>",	500000,		4320,	1.08, 24)
 ];
 bp.init = false;
 bp.owned = [0, 0, 0, 0];
