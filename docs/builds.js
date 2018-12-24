@@ -158,4 +158,4 @@ bp.gain = function(times) {
 			$("#bp-time-" + (i+1)).html(beautify((h.bp.getTime(i) - bp.progress[i]), 1) + ' seconds'); 
 		};
 	};
-};
+}; 
