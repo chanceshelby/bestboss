@@ -36,7 +36,7 @@
 	.main-tab>.col-md-12>.col-md-3 { color: #333; }
 	.prod-time>h5, .business-time>h5, .prod-stats>h5, .business-stats>h5 { margin-top: 5px; margin-bottom: 5px; }
 	.prod-stats { margin-bottom: 5px; }
-	.prod-time, .business-time { transition: all .2s; padding: 2px 0; margin-bottom: 5px; width: 100%; background: #FFDF00; border-radius: 2px; color: #fff;}
+	.prod-time, .business-time { transition: all .2s; padding: 2px 0; margin-bottom: 5px; width: 100%; background: #CFB53B; border-radius: 2px; color: #fff;}
 	.prod-stats, .business-stats { transition: all .2s; width: 100%; padding-top: 3px; padding-bottom: 3px; background: #cf514f; border-radius: 2px;
 	color: #eee; cursor: pointer; }
 	.prod-stats:hover, .business-stats:hover { transition: all .2s; background: #ff6461; }
