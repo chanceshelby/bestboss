@@ -28,7 +28,7 @@ core.init = function() {
 
 	save.loadData();
 
-	$("#nav-version").html("BEST BO<font color="gold">$$</font><small>by chance shelby</small>");
+	$("#nav-version").html("BEST BO$$ <small>by chance shelby</small>");
 	c.init = true;
 };
 core.display = function() {
